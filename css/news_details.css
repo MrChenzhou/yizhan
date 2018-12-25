@@ -1,0 +1,24 @@
+.banner{width: 100%;height: 600px;overflow: hidden;position: relative;}
+.banner img{position: absolute;top:0;left:50%;margin-left: -960px;}
+.main{width: 1170px;min-height: 500px;margin: 0 auto;padding: 80px 0 60px;}
+.main h1{font-weight: normal;text-align: center;margin-bottom: 30px;font-size: 36px;}
+.main h1 em{display: block}
+.main h1 i{font-size: 36px;color: #ebc929;}
+.main h1 span{ font-size: 14px;line-height: 14px;padding: 14px;position: relative;}
+.main h1 span:before{content: "";display:inline-block;width: 50px;height: 0;border-bottom: #c1c1c1 solid 2px;position: absolute;top: 23px;left:-50px;}
+.main h1 span:after{content: "";display:inline-block;width: 50px;height: 0;border-bottom: #c1c1c1 solid 2px;position: absolute;top: 23px;right:-50px;}
+.title{width: 100%;height: 120px; border-top: black solid 2px;border-bottom: #666666 dashed 1px;}
+.title h2{font-size: 36px;font-weight: normal;line-height:72px; color: black;}
+.title span{font-size: 14px;}
+.main p{font-size: 24px;color: #656565;margin-top: 20px;letter-spacing: 3px;}
+.photo{margin: 10px auto 0;text-align: center;}
+.photo img{display:inline-block;}
+.photo ul{margin-top: 10px;}
+.photo li{font-size: 18px;color: #656565;line-height: 27px;}
+.line{width: 100%;height: 0;border-bottom: #666666 solid 2px;margin:50px 0 10px}
+.auction ul li{font-size: 20px;color:#656565;margin-bottom: 30px;text-align: center}
+.auction ul li span{font-weight: 700;}
+.praise{width: 990px;height: 90px;background: #f7f7f7;padding: 0 90px;}
+.praise span{font-size: 18px;color: #656565;line-height: 90px;}
+.praise a:nth-child(2){float: right}
+.praise a:hover span{color: #D74B19;}

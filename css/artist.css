@@ -1,0 +1,17 @@
+.banner{width: 100%;height: 600px;overflow: hidden;position: relative;}
+.banner img{position: absolute;top:0;left:50%;margin-left: -960px;}
+.main{width: 1170px;min-height: 500px;margin: 0 auto;padding: 80px 0 60px;}
+.main h1{font-weight: normal;text-align: center;margin-bottom: 30px}
+.main h1 i{display: block;font-size: 36px;color: #ebc929;}
+.main h1 span{font-size: 14px;line-height: 14px;padding: 14px;position: relative;}
+.main h1 span:before{content: "";display:inline-block;width: 50px;height: 0;border-bottom: #c1c1c1 solid 2px;position: absolute;top: 23px;left:-50px;}
+.main h1 span:after{content: "";display:inline-block;width: 50px;height: 0;border-bottom: #c1c1c1 solid 2px;position: absolute;top: 23px;right:-50px;}
+
+.main ul li{width:1170px;margin-bottom: 30px;background: #e5e5e5;}
+.main ul li img{float: left;margin-right: 32px;}
+.main ul li .content{width: 600px;height:600px;padding-top: 59px;float: left;background: #e5e5e5;}
+.main ul li .content h2{font-weight: normal;font-size: 36px;color: #666666;background: url("../images/a.png") no-repeat 120px 5px;margin-bottom: 30px;}
+.content p{font-size: 14px;color: #666666;letter-spacing: 3px;line-height: 21px}
+.content i{font-size: 14px;color: #666666;letter-spacing: 3px;line-height: 21px;display:inline-block;margin-top: 100px;}
+.main ul li span{display:block;float: left; width: 70px;height: 659px;font-size: 80px;line-height: 659px;color: #9a9a9a;}
+h3{font-size: 18px;text-align: center;padding-bottom: 80px;}
